@@ -1,0 +1,85 @@
+.main {
+  max-width: 1920px;
+  min-height: 500px;
+  border: 1px solid transparent;
+}
+
+.siema {
+  margin-top: 80px;
+  height: 100%;
+}
+
+.slider {
+  position: relative;
+  padding-bottom: 35.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.slider iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.slider-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(126, 125, 125, 0.5);
+}
+
+.next,
+.prev {
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #00A031;
+}
+
+/* ____________________BUTTONS____________________*/
+
+.slider-button {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 50px 10px 20px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #00A031;
+}
+
+.slider-button {
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)
+}
+
+.slider-button {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.slider-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
